@@ -48,7 +48,7 @@ const Login2 = () => {
                     <input type='text' id='confirm_password' minLength="6" maxLength="20" className='form-control form-control-sm' ref={textPswd2} onBlur={onBlurPassword}/>
                 </div>
                 <div className='form-group mb-4'>
-                    <label>บันทึกช่วยจำ</label>
+                    <label>บันทึกช่วยจำ test แก้ที่ VS Code</label>
                     <textarea id='memo' name='memo' rows="2" className='form-control form-control-sm'></textarea>
                 </div>
                 <div>
