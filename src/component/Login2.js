@@ -52,7 +52,7 @@ const Login2 = () => {
                     <textarea id='memo' name='memo' rows="2" className='form-control form-control-sm'></textarea>
                 </div>
                 <div>
-                    <button className='btn btn-success btn-sm px-4' onClick={CheckPassword}>OK</button>
+                    <button className='btn btn-success btn-sm px-4' onClick={CheckPassword}>OK Na</button>
                 </div>
             </form>
         </div>
