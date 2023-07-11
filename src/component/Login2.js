@@ -48,11 +48,11 @@ const Login2 = () => {
                     <input type='text' id='confirm_password' minLength="6" maxLength="20" className='form-control form-control-sm' ref={textPswd2} onBlur={onBlurPassword}/>
                 </div>
                 <div className='form-group mb-4'>
-                    <label>บันทึกช่วยจำ test แก้ที่ VS Code</label>
+                    <label>บันทึกช่วยจำ</label>
                     <textarea id='memo' name='memo' rows="2" className='form-control form-control-sm'></textarea>
                 </div>
                 <div>
-                    <button className='btn btn-success btn-sm px-4' onClick={CheckPassword}>OK สุดยอด</button>
+                    <button className='btn btn-success btn-sm px-4' onClick={CheckPassword}>OK</button>
                 </div>
             </form>
         </div>
