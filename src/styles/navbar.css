@@ -1,0 +1,39 @@
+/* .nav{
+    background-color: #ced;
+    padding: 7px;
+    text-align: center;
+}
+
+.menu {
+    color: rgb(19, 54, 56);
+    text-decoration: none;
+    padding: 2px 5px;
+}
+
+.active_menu {
+    color:  rgb(19, 54, 56);
+    background-color: rgb(255, 255, 255);
+    padding: 2px 5px; 
+    font-weight: bold
+} */
+
+.nav-link, li > a:visited {
+    color: lightgray;
+}
+
+li>a:hover{
+    color: black;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+
+
+li{
+    margin-left: 10px;
+}
+
+.between{
+    display:"flex"; 
+    flex-wrap: nowrap;
+    justify-content: "apace-between";
+}
