@@ -4,6 +4,8 @@ import { NavLink, Route, BrowserRouter, Routes } from "react-router-dom";
 import { Calculator } from "./caculator";
 import FormSearch from "./FormSearch";
 import Login2 from "./Login2";
+import Inputform from "./Inputform";
+import FormValidation from "./FormValidation";
 
 function Navbar() {
     
@@ -39,8 +41,9 @@ function Navbar() {
         <Routes>
           <Route path="/"  element={<Calculator/>} />
           <Route path="/product"  element={<FormSearch/>}/>
-          <Route path="/member"  element={<div>Member ทดสอบการแก้ไขที่ SC</div>}/>
+          <Route path="/member"  element={<Inputform/>}/>
           <Route path="/login" element={<Login2/>}/>
+          <Route path="/formvalidation" element={<FormValidation/>}/>
         </Routes>
       </div>
     </BrowserRouter>
