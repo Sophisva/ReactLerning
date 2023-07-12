@@ -39,7 +39,7 @@ function Navbar() {
         <Routes>
           <Route path="/"  element={<Calculator/>} />
           <Route path="/product"  element={<FormSearch/>}/>
-          <Route path="/member"  element={<div>Member</div>}/>
+          <Route path="/member"  element={<div>Member ทดสอบการแก้ไขที่ SC</div>}/>
           <Route path="/login" element={<Login2/>}/>
         </Routes>
       </div>
