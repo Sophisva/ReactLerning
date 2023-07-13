@@ -10,7 +10,9 @@ function Inputform() {
     };
 
   return (
+    
     <div>
+      <label>Hello ไทยแลนด์</label><br />
         <select id="idse" name="idse[]" multiple size="3" onChange={handleSelectChange}>
             <option value="faceboook">Facebook</option>
             <option value="twitter">Twitter</option>
