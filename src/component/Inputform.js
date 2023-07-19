@@ -12,7 +12,7 @@ function Inputform() {
   return (
     
     <div>
-      <label>Hello ทดสอบภาษาไทย ใหม่</label><br />
+      <label>Hello เธ—เธ”เธชเธญเธ เนเธ—เธข เนเธซเธกเน</label><br />
         <select id="idse" name="idse[]" multiple size="3" onChange={handleSelectChange}>
             <option value="faceboook">Facebook</option>
             <option value="twitter">Twitter</option>
