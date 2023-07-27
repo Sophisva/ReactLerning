@@ -6,6 +6,11 @@ import FormSearch from "./FormSearch";
 import Login2 from "./Login2";
 import Inputform from "./Inputform";
 import FormValidation from "./FormValidation";
+import TestFirebase from "./TestFirebase";
+import Login_Auth from "./Login_Auth";
+import Signin from "./auth/Signin";
+import Signup from "./auth/Signup";
+
 
 function Navbar() {
     
@@ -31,8 +36,10 @@ function Navbar() {
                 Menu List
             </a>
             <div className="dropdown-menu bg-light">
-                <a className="dropdown-item" href="#">User</a>
-                <a className="dropdown-item" href="#">Administrator</a>
+                <a className="dropdown-item" href="/changRole">Dev Administrator</a>
+                <a className="dropdown-item" href="/changRole">Administrator</a>
+                <a className="dropdown-item" href="/changRole">User</a>
+                <a className="dropdown-item" href="/Get-user">Get user</a>
             </div>
           </li>
         </ul>
@@ -44,6 +51,9 @@ function Navbar() {
           <Route path="/member"  element={<Inputform/>}/>
           <Route path="/login" element={<Login2/>}/>
           <Route path="/formvalidation" element={<FormValidation/>}/>
+          <Route path="/Get-user" element={<TestFirebase/>}/>
+          <Route path="/Sign-in" element={<Signin/>}/>
+          <Route path="/Sign-up" element={<Signup/>}/>
         </Routes>
       </div>
     </BrowserRouter>
