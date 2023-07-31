@@ -7,7 +7,6 @@ import Login2 from "./Login2";
 import Inputform from "./Inputform";
 import FormValidation from "./FormValidation";
 import TestFirebase from "./TestFirebase";
-import Login_Auth from "./Login_Auth";
 import Signin from "./auth/Signin";
 import Signup from "./auth/Signup";
 
@@ -15,7 +14,8 @@ import Signup from "./auth/Signup";
 function Navbar() {
     
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
+      <div>
       <nav className="navbar navbar-expand-sm bg-dark px-3 py-0">
         <a className="navbar-brand" href="">
           <img src="./logo192.png" height="65" alt="" />
@@ -44,7 +44,7 @@ function Navbar() {
           </li>
         </ul>
       </nav>
-      <div className="text-center m-3">
+      {/* <div className="text-center m-3">
         <Routes>
           <Route path="/"  element={<Calculator/>} />
           <Route path="/product"  element={<FormSearch/>}/>
@@ -55,8 +55,9 @@ function Navbar() {
           <Route path="/Sign-in" element={<Signin/>}/>
           <Route path="/Sign-up" element={<Signup/>}/>
         </Routes>
-      </div>
-    </BrowserRouter>
+      </div> */}
+    </div>
+    // </BrowserRouter>
   )
 }
 

@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../firebase";
+import AuthDetails from "../AuthDetails";
 
 const Signup = () => {
-
+  
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
   
@@ -19,6 +20,7 @@ const Signup = () => {
     }
   
     return (
+      <center>
       <div className="sign-in-container">
         <form onSubmit={signUp}>
           <h1>Create Account</h1>
@@ -34,7 +36,9 @@ const Signup = () => {
           />
           <button type="submit">Sign Up</button>
         </form>
+        <AuthDetails/>
       </div>
+      </center>
     );
 }
 

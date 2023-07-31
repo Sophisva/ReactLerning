@@ -38,7 +38,7 @@ export function Context(){
 export function Footer(){
     return (
         <div style={{textAlign: 'center', marginTop: '20px'}}>
-            &copy; {new Date().getFullYear()} <br/> Creact By :: Sophisva.Ph
+            &copy; {new Date().getFullYear()} :: SOPHISVA.PH
         </div>
     )
 }
